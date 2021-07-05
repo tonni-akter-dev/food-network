@@ -1,0 +1,90 @@
+body{
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+.top-header{
+    background-image: url(images/top-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;  
+}
+.logo-design{
+    width: 70px;
+    height: 70px;
+    /* every line a height drkr ase tai line height */
+    line-height: 70px;
+    text-align: center;
+    color:white;
+    border: 2px solid rgb(19, 11, 11);
+    border-radius: 50%;
+    margin: 1% 7% ;
+}
+.topnav {
+   width: 40%;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 30px;
+    text-align: center;
+}
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .left-side-design{
+      width: 40%;
+  }
+.bottom-text{
+    padding-left: 7%;
+    color: white;
+    font-size: 2rem;
+}
+#para{
+    font-size: 1.2rem;
+    color: grey;
+
+}
+
+
+
+/* food-network section.............. */
+.food-network{
+    display: flex;
+    padding-top: 5%;
+    background-color: silver;
+}
+.half-width{
+    width: 40%;
+    padding-left: 2px;
+    margin-left: 5%;
+}
+.word-coloring{
+    color:orangered ;
+}
+.heading-design{
+    font-size: 3rem;
+}
+.image-design{
+    width: 100%;
+}
+.food-order-link{
+text-decoration: none;
+background-image: linear-gradient(salmon,orange);
+padding: 15px 25px;
+border-radius: 50px;
+
+}
+.para-1{
+    margin-bottom: 8%;
+}
