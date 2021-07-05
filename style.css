@@ -28,7 +28,7 @@ font-family: 'Roboto', sans-serif;
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color:rgb(245, 222, 179);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,18 +41,19 @@ font-family: 'Roboto', sans-serif;
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+ 
   }
   .left-side-design{
       width: 40%;
   }
 .bottom-text{
     padding-left: 7%;
-    color: white;
+    color: rgba(245, 222, 179, 0.671);
     font-size: 2rem;
 }
 #para{
     font-size: 1.2rem;
-    color: grey;
+    color:grey;
 
 }
 
@@ -62,7 +63,8 @@ font-family: 'Roboto', sans-serif;
 .food-network{
     display: flex;
     padding-top: 5%;
-    background-color: silver;
+    margin-bottom: 5%;
+    /* background-color: silver; */
 }
 .half-width{
     width: 40%;
@@ -85,6 +87,81 @@ padding: 15px 25px;
 border-radius: 50px;
 
 }
-.para-1{
-    margin-bottom: 8%;
+
+/* about section starts here */
+
+.about-section{
+
+    display: flex;
+    padding-top: 7%;
+   background-image: url(images/bg-2.png);
+
 }
+/* recipie section */
+.recipie{
+    text-align: center;
+ 
+}
+/* card............ */
+.card{
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+ padding: 15px;
+
+    box-sizing: border-box;
+    box-shadow: 6px 12px 10px black;
+    border-radius: 10px;
+}
+
+.card-body{
+    padding: 5px;
+    
+    }
+    .card-title{
+    /* font-size: 1.2rem; */
+    text-align: center;
+    
+    }
+    .card-desc{
+    text-align: justify;
+    line-height: 1.5;
+    
+    }
+    
+    .card-container{
+        box-sizing: border-box;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+    }
+    /* social-media-section */
+    .social-media-section{
+        margin: auto;
+        width: 65%;
+        border: 5px solid whitesmoke;
+        padding: 20px;
+box-shadow: grey 1px 2px 4px;
+display: flex;
+margin-bottom: 5%;
+margin-top: 5%;
+    }
+    .social-media-section:hover{
+        background-color: thistle;
+    }
+    .media{
+        width: 30%;
+        /* padding: 2px; */
+        margin: 5%;
+    }
+    /* footer section............... */
+    .footer-design{
+        background-color: black;
+    text-align: center;
+padding: 20px 40px ;
+    }
+    .grey-coloring{
+        color: grey;
+    }
+    
