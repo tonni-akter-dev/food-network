@@ -56,6 +56,10 @@ font-family: 'Roboto', sans-serif;
     color:grey;
 
 }
+.para-1{
+    margin-bottom: 15%;
+    line-height: 2rem;
+}
 
 
 
@@ -126,7 +130,7 @@ border-radius: 50px;
     .card-desc{
     text-align: justify;
     line-height: 1.5;
-    
+
     }
     
     .card-container{
@@ -148,7 +152,7 @@ margin-bottom: 5%;
 margin-top: 5%;
     }
     .social-media-section:hover{
-        background-color: thistle;
+        background-color: grey;
     }
     .media{
         width: 30%;
